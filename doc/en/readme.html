@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VisionAccess Add-on Sharer</title>
+</head>
+<body>
+<h1>VisionAccess Add-on Sharer</h1>
+<ul>
+<li>Author: Mukesh Jain, VisionAccess</li>
+<li>Website: <a href="https://www.visionaccess.org">www.visionaccess.org</a></li>
+<li>Contact: info@visionaccess.org, phone 7021030307</li>
+<li>Download: <a href="https://github.com/visionaccess/visionAccessAddonSharer/releases/latest">latest version on GitHub</a></li>
+<li>Works with: NVDA 2024.1 to 2026.2</li>
+</ul>
+<h2>What it does</h2>
+<p>This add-on turns the add-ons you have already installed in NVDA back into ready-to-install <code>.nvda-addon</code> files.</p>
+<p>Use it to:</p>
+<ul>
+<li>keep a backup of all your add-ons before reinstalling Windows or NVDA,</li>
+<li>move your add-ons to a new computer,</li>
+<li>share an add-on with a friend or a student who cannot find it online.</li>
+</ul>
+<h2>How to open it</h2>
+<ul>
+<li>From the NVDA menu: Tools, then <strong>VisionAccess Add-on Sharer</strong>.</li>
+<li>Or press <strong>NVDA+Shift+Alt+A</strong>. You can change this key in NVDA menu, Preferences, Input Gestures, category "VisionAccess Add-on Sharer".</li>
+</ul>
+<h2>How to use it</h2>
+<ol>
+<li>The focus starts on the list of installed add-ons. Move with the arrow keys and press <strong>Space</strong> to check each add-on you want to share. Disabled add-ons are listed too.</li>
+<li>Choose where the files are saved. By default they go to the folder <strong>Documents\NVDA Add-on Packages</strong>. Use the <strong>Browse</strong> button to choose another folder. Your choice is remembered.</li>
+<li>Press <strong>Create packages</strong>. A progress bar shows how far the work has gone.</li>
+<li>When it finishes, you can copy the new files to the clipboard and paste them straight into an e-mail, WhatsApp Desktop, Telegram or a USB drive. If "Open the folder when finished" is checked, the folder opens too.</li>
+</ol>
+<p>Each file is named after the add-on and its version, for example <code>clock-24.1.nvda-addon</code>. If a file with the same name is already in the folder, it is replaced with the new one.</p>
+<h3>Keys in the window</h3>
+<ul>
+<li>Alt+I: go to the add-on list</li>
+<li>Alt+A: check all add-ons</li>
+<li>Alt+U: uncheck all add-ons</li>
+<li>Alt+F: go to the output folder field</li>
+<li>Alt+B: browse for another folder</li>
+<li>Alt+O: open the folder when finished (on or off)</li>
+<li>Alt+C: create the packages</li>
+<li>Alt+L or Escape: close the window</li>
+</ul>
+<h2>Please note</h2>
+<ul>
+<li>The package contains the add-on folder exactly as it is on your computer. Temporary Python cache files (<code>__pycache__</code>) are left out. Some add-ons keep personal settings inside their own folder, and these settings go into the package too. Keep this in mind before you share a file publicly.</li>
+<li>Please respect each add-on author's licence. Most NVDA add-ons are free and open source, but for paid or licensed add-ons, ask the author before you share them.</li>
+<li>For safety, the add-on does not work on secure screens such as the Windows sign-in screen.</li>
+</ul>
+<h2>Credits</h2>
+<p>The idea comes from the "Add-on Packer" add-on by Héctor J. Benítez Corredera. VisionAccess Add-on Sharer is a new add-on written for current NVDA versions.</p>
+<h2>Changes</h2>
+<h3>Version 1.0.2</h3>
+<ul>
+<li>The add-on description now lists all keyboard commands.</li>
+<li>Added the download link for the latest version.</li>
+</ul>
+<h3>Version 1.0.1</h3>
+<ul>
+<li>Fixed: the window did not open from the Tools menu or with NVDA+Shift+Alt+A.</li>
+</ul>
+<h3>Version 1.0.0</h3>
+<ul>
+<li>First release.</li>
+</ul>
+</body>
+</html>
